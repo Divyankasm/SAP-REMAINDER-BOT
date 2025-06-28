@@ -1,19 +1,22 @@
-﻿# SAP Reminder Bot
+# 🧠 SAP Reminder Bot
 
-A simple Python script to automatically add your SAP ABAP training sessions to Google Calendar with a reminder set before each one.
-Created it as a fun project for solving my own problem.
+A Python bot that auto-adds SAP ABAP training events to your Google Calendar using the Google Calendar API.
 
-## Features
+## 🚀 Features
+- Auto-creates events for your training schedule
+- Sets reminders 10 minutes before each event
+- Works with Google Calendar using service account credentials
 
-- Adds multiple training dates at once
-- Sets 10-minute popup reminders
-- Timezone-aware (India Standard Time)
-- Works with your personal Google Calendar using a service account
+## ⚙️ How to Use
 
-## How to Use
+1. Clone this repo
+2. Run `pip install -r requirements.txt`
+3. Add your `credentials.json` (Google Cloud Service Account)
+4. Run:
 
-1. Clone the repo:
+## 📌 Note
+Do **NOT** upload `credentials.json` to GitHub — it contains sensitive keys.
 
-```bash
-git clone https://github.com/yourusername/SAP-Reminder-Bot.git
-cd SAP-Reminder-Bot
+---
+
+MIT License
