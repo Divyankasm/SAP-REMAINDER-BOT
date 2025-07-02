@@ -14,9 +14,6 @@ A Python bot that auto-adds SAP ABAP training events to your Google Calendar usi
 3. Add your `credentials.json` (Google Cloud Service Account)
 4. Run:
 
-## 📌 Note
-Do **NOT** upload `credentials.json` to GitHub — it contains sensitive keys.
-
 ---
 
 MIT License
